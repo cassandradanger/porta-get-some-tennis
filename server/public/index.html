@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Get Some Tennis</title>
+    <script src="jquery.js"></script>
+    <script src="client.js"></script>
+</head>
+<body>
+    <h1>Get Some Tennis</h1>
+    <div id="addPlayer">
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName"/>
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName"/>
+        <label for="born">Born</label>
+        <input type="text" id="born"/>
+
+        <button id="add">Add Player</button>
+    </div>
+    <h2>Famous Tennis Players</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Born</th>
+            </tr>
+        </thead>
+        <tbody id="playerTableBody"></tbody>
+    </table>
+
+    <h2>Grand Slams</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody id="tournamentTableBody"></tbody>
+    </table>
+</body>
+</html>
